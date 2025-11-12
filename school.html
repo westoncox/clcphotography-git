@@ -20,6 +20,20 @@
       min-height: 100vh;
       padding: 1rem;
     }
+    
+    /* Adjust vertical positioning on small screens */
+    @media (max-height: 667px) {
+      body {
+        align-items: flex-start;
+        padding-top: 2rem;
+      }
+    }
+    
+    @media (max-height: 580px) {
+      body {
+        padding-top: 1rem;
+      }
+    }
     .container {
       background: white;
       border-radius: 20px;
