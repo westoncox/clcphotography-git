@@ -1,0 +1,7 @@
+▲ Next.js 16.3.4
+- Local:         http://localhost:3013
+- Network:       http://10.0.0.10:3013
+✓ Ready in 116ms
+[@sentry/nextjs] Importing `withSentryConfig` from `@sentry/nextjs` is deprecated and will stop working in v11. Import it from `@sentry/nextjs/config` instead:
+  import { withSentryConfig } from '@sentry/nextjs/config';
+✓ Running next.config.ts took 347ms

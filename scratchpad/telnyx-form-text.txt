@@ -1,0 +1,17 @@
+SAMPLE 1 (order placed, pay on photo day)
+CLC Photography: Order placed! Please pay by cash or check on photo day. Your Pic Pass: https://clcphotos.com/t/EXAMPLE Reply STOP to opt out.
+
+SAMPLE 2 (payment received)
+CLC Photography: Payment received. You're all set! Your Pic Pass: https://clcphotos.com/t/EXAMPLE Reply STOP to opt out.
+
+SAMPLE 3 (reply to a customer's question)
+CLC Photography: Thanks for your message. Your order is paid and being processed. Your Pic Pass: https://clcphotos.com/t/EXAMPLE Reply STOP to opt out.
+
+OPT-IN MESSAGE
+CLC Photography: You're signed up for texts about your photo orders, payments, and photo day. Msg frequency varies. Msg & data rates may apply. Consent is not a condition of purchase. Reply HELP for help, STOP to opt out.
+
+HELP MESSAGE
+CLC Photography: For help visit clcphotos.com, email info@clcphotos.com or call 706-278-7703. Msg & data rates may apply. Reply STOP to opt out.
+
+OPT-IN KEYWORDS
+(leave blank)

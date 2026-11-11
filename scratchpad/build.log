@@ -1,0 +1,184 @@
+
+> clc-photography-pwa@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.3.4 (webpack)
+- Environments: .env.local
+[@sentry/nextjs] Importing `withSentryConfig` from `@sentry/nextjs` is deprecated and will stop working in v11. Import it from `@sentry/nextjs/config` instead:
+  import { withSentryConfig } from '@sentry/nextjs/config';
+✓ Running next.config.ts took 909ms
+- Experiments (use with caution):
+  · clientTraceMetadata
+
+  Creating an optimized production build ...
+(node:25305) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+⚠ Compiled with warnings in 28.6s
+
+./node_modules/@vladmandic/face-api/dist/face-api.esm.js
+Critical dependency: require function is used in a way in which dependencies cannot be statically extracted
+
+Import trace for requested module:
+./node_modules/@vladmandic/face-api/dist/face-api.esm.js
+./components/TeamPhotoModal.jsx
+./app/admin/teams/page.js
+
+./node_modules/@vladmandic/face-api/dist/face-api.esm.js
+Critical dependency: require function is used in a way in which dependencies cannot be statically extracted
+
+Import trace for requested module:
+./node_modules/@vladmandic/face-api/dist/face-api.esm.js
+./components/TeamPhotoModal.jsx
+./app/admin/teams/page.js
+
+  Running TypeScript ...
+  Finished TypeScript in 2.8s ...
+  Collecting page data using 15 workers ...
+  Generating static pages using 15 workers (0/107) ...
+  Generating static pages using 15 workers (26/107) 
+  Generating static pages using 15 workers (53/107) 
+🌐 i18next is maintained with support from locize.com — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+🌐 i18next is maintained with support from locize.com — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙
+  Generating static pages using 15 workers (80/107) 
+✓ Generating static pages using 15 workers (107/107) in 676ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ○ /admin/coach-teams
+├ ○ /admin/folders
+├ ○ /admin/guide
+├ ○ /admin/messages
+├ ○ /admin/nfc-assign
+├ ○ /admin/notifications
+├ ○ /admin/orders
+├ ○ /admin/orders/duplicates
+├ ○ /admin/photo-day
+├ ○ /admin/pre-reg-cards
+├ ƒ /admin/print-label/[id]
+├ ƒ /admin/print-order/[id]
+├ ○ /admin/print-order/batch
+├ ○ /admin/print-queue
+├ ○ /admin/scanner
+├ ○ /admin/staff
+├ ○ /admin/teams
+├ ○ /admin/unlinked-orders
+├ ƒ /api/admin/assign-sequence
+├ ƒ /api/admin/auth
+├ ƒ /api/admin/automation-schedule
+├ ƒ /api/admin/backfill-card-last4
+├ ƒ /api/admin/calendar
+├ ƒ /api/admin/check-auth
+├ ƒ /api/admin/coach-import
+├ ƒ /api/admin/coach-teams
+├ ƒ /api/admin/coach-teams/[id]
+├ ƒ /api/admin/coach-teams/[id]/export
+├ ƒ /api/admin/coach-teams/mark-printed
+├ ƒ /api/admin/coach-teams/mark-texted
+├ ƒ /api/admin/coach-teams/new-since-print
+├ ƒ /api/admin/copy-teams-to-next-season
+├ ƒ /api/admin/current-event
+├ ƒ /api/admin/distinct-values
+├ ƒ /api/admin/fix-payment-status
+├ ƒ /api/admin/group-photo
+├ ƒ /api/admin/message-templates
+├ ƒ /api/admin/nfc-assign
+├ ƒ /api/admin/orders/[id]
+├ ƒ /api/admin/orders/bulk-fulfill
+├ ƒ /api/admin/orders/delete-unpaid-attempt
+├ ƒ /api/admin/orders/duplicates
+├ ƒ /api/admin/orders/mark-printed
+├ ƒ /api/admin/orders/pending-count
+├ ƒ /api/admin/orders/search
+├ ƒ /api/admin/photo-day-schedule
+├ ƒ /api/admin/photo-day-spots
+├ ƒ /api/admin/player-delete-mark
+├ ƒ /api/admin/print-queue
+├ ƒ /api/admin/push-subscribe
+├ ƒ /api/admin/reconcile-payments
+├ ƒ /api/admin/reset-sequences
+├ ƒ /api/admin/roster-add-player
+├ ƒ /api/admin/roster-import
+├ ƒ /api/admin/roster-import-batch
+├ ƒ /api/admin/roster-prereg
+├ ƒ /api/admin/roster-remove-player
+├ ƒ /api/admin/roster-rename-player
+├ ƒ /api/admin/roster-reorder
+├ ƒ /api/admin/roster-request
+├ ƒ /api/admin/roster-search
+├ ƒ /api/admin/send-absent
+├ ƒ /api/admin/send-payment-reminders
+├ ƒ /api/admin/send-ticket
+├ ƒ /api/admin/set-event-seq
+├ ƒ /api/admin/short-link
+├ ƒ /api/admin/sync-sequences
+├ ƒ /api/admin/team-coaches
+├ ƒ /api/admin/team-coaches/[id]
+├ ƒ /api/admin/team-filter
+├ ƒ /api/admin/team-photo-day
+├ ƒ /api/admin/team-photos
+├ ƒ /api/admin/test-email
+├ ƒ /api/admin/unassign-sequence
+├ ƒ /api/admin/unlinked-orders
+├ ƒ /api/automation-schedule
+├ ƒ /api/capture-paypal-order
+├ ƒ /api/cashapp-pay
+├ ƒ /api/complete-order
+├ ƒ /api/create-order
+├ ƒ /api/create-payment
+├ ƒ /api/create-paypal-order
+├ ƒ /api/cron/calendar-sync
+├ ƒ /api/cron/roster-followups
+├ ƒ /api/digital-download-pending
+├ ƒ /api/digital-download-prepare
+├ ƒ /api/digital-download-send
+├ ƒ /api/event-suggestions
+├ ƒ /api/my-orders
+├ ƒ /api/new-orders-fulfilled
+├ ƒ /api/order-teams
+├ ƒ /api/orders/[id]
+├ ƒ /api/paypal-webhook
+├ ƒ /api/photo-order-alert
+├ ƒ /api/photo-order-mark-printed
+├ ƒ /api/photo-order-sheets
+├ ƒ /api/photo-order-teams
+├ ƒ /api/photo-sequences
+├ ƒ /api/rec-teams
+├ ƒ /api/refresh-payment-status
+├ ƒ /api/register/[token]
+├ ƒ /api/resend-webhook
+├ ƒ /api/returning-customer
+├ ƒ /api/roster
+├ ƒ /api/roster-export
+├ ƒ /api/sentry-example-api
+├ ƒ /api/square-webhook
+├ ƒ /api/team-photo/[teamId]
+├ ƒ /api/team-photo/submit
+├ ƒ /api/ticket/[ticket_id]
+├ ƒ /api/tickets/[teamId]
+├ ƒ /api/upload-photo
+├ ○ /maintenance
+├ ○ /my-orders
+├ ○ /order
+├ ○ /order/confirmation
+├ ○ /order/pay-card
+├ ○ /order/pay-cashapp
+├ ○ /order/pay-paypal
+├ ○ /print/team-orders
+├ ƒ /register/[token]
+├ ƒ /s/[code]
+├ ○ /sentry-example-page
+├ ○ /sms-terms
+├ ƒ /t/[ticket_id]
+├ ƒ /team-photo/[teamId]
+└ ƒ /tickets/[teamId]
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
