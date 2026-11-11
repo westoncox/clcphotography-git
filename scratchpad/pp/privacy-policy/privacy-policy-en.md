@@ -46,7 +46,7 @@ We use collected data strictly to:
 
 ### Text Messages (SMS)
 
-If you sign up for text messages, we use your mobile number to send messages about your orders, payments, and photo day, and to reply to you. No mobile information will be sold or shared with third parties for promotional or marketing purposes. We share it with service providers only as needed to operate our services and deliver messages. Reply STOP to opt out at any time. Full terms: clcphotos.com/sms-terms.
+If you sign up for text messages, we use your mobile number to send messages about your orders, payments, and photo day, and to reply to you. We will not sell or share your mobile phone number or related mobile information with third parties for promotional or marketing purposes. We share it with service providers only as needed to operate our services and deliver messages. Reply STOP to opt out at any time. Full terms: clcphotos.com/sms-terms.
 
 ## 4. Children’s Privacy
 
